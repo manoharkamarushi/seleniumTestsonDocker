@@ -1,12 +1,4 @@
 # seleniumWithDocker </br>
-## Running selenium tests in Docker </br>
-### Advantages:</br>
-No need to handle browser drivers. </br>
-Tests are fast and smooth as they are running virtually in a container. </br>
-With docker network, we can create a selenium hub and node environment so that we can run tests parallely. </br>
-Here in each container create an image of a different browser and o.s. </br>
-With docker compose, we can run multiple containers together using a yml configuration file. </br>
-
 ## What is Docker? </br>
 Docker is a set of ‘platform as a service’ products that use OS-level virtualization to deliver software in packages called containers. </br>
 OR </br>
@@ -33,3 +25,11 @@ Once run returns a container Id. </br>
 
 docker ps →lists out all containers created. </br>
 Write selenium grid code locally and run it. </br>
+
+## Running selenium tests in Docker </br>
+### Advantages:</br>
+No need to handle browser drivers. </br>
+Tests are fast and smooth as they are running virtually in a container. </br>
+With docker network, we can create a selenium hub and node environment so that we can run tests parallely. </br>
+Here in each container create an image of a different browser and o.s. </br>
+With docker compose, we can run multiple containers together using a yml configuration file. </br>
